@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:host {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    padding-top: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url("../../../../assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: "Mulish", sans-serif;
+}
+
+.headerSection {}
+
+.headerSection h1 {
+    font-size: 80px;
+    color: white;
+}
+
+.headerSection h3 {
+    color: white;
+    width: 50%;
+}
+
+.register {
+    background: linear-gradient(to bottom, #35E5CE, #2ab6a3);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+}
+
+.buttonPanel {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
