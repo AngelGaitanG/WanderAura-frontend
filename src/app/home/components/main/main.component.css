@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@731&family=Zain:wght@200;300;400;700;800;900&display=swap');
 
 :host {
     display: block;
     width: 100%;
     height: 100vh;
-    padding-top: 15%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 13%;
+    padding-left: 13%;
+    padding-right: 13%;
     background-image: url("../../../../assets/background.jpg");
     background-size: cover;
     background-position: center;
-    font-family: "Mulish", sans-serif;
+    font-family: "Zain", sans-serif;
 }
 
 .headerSection {}
@@ -22,15 +22,21 @@
 
 .headerSection h3 {
     color: white;
-    width: 50%;
+    width: 60%;
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 0 10px #00000050;
+    cursor: pointer;
+    font-size: 14px;
 }
 
 .register {
-    background: linear-gradient(to bottom, #35E5CE, #2ab6a3);
     padding: 15px 40px;
-    border: none;
-    border-radius: 40px;
-    color: white;
+    background: linear-gradient(to bottom, #35E5CE, #2ab6a3);
 }
 
 .buttonPanel {
@@ -38,4 +44,53 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tripsBtn {
+    background: linear-gradient(to right, #F39359, #FEC751);
+    padding: 20px 0;
+    width: 240px;
+}
+
+.chatBtn {
+    background: linear-gradient(to right, #FEC751, #FD44A2);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.activitiesBtn {
+    background: #01E3E1;
+    padding: 20px 0;
+    width: 240px;
+    box-shadow: 0 0 10px #01e3df85;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews {
+    background: linear-gradient(to right, #F94F98, #F8AC4D);
+    padding: 20px 0;
+    box-shadow: 0 0 10px #00000061;
+    width: 240px;
+}
+
+.about {
+    background: white;
+    padding: 20px 0;
+    color: #2a2a2a;
+    width: 240px;
 }
